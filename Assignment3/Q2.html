@@ -1,93 +1,54 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Monthly Calender table</title>
-    </head>
-    <body>
-        <h1>Monthly Calender list</h1>
-        <table border="1" cellspacing="0" cellpadding="5">
-            <caption><strong>Monthly Calender</strong></caption>
-            <thead>
-                <tr>
-                    <th>Weeks (down)| Days -></th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thrusday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                    <th>Sunday</th>
-                    <th rowspan="5">Date</th>
-                    <th>Events</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>week 1</td>
-                    <td></td>
-                    <td></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>Winter Vacation</td>
-                </tr>
-                <tr>
-                    <td>week 2</td>
-                    <td>6</td>
-                    <td bgcolor="aqua">7</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>11</td>
-                    <td>12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>week 3</td>
-                    <td>13</td>
-                    <td>14</td>
-                    <td>15</td>
-                    <td>16</td>
-                    <td>17</td>
-                    <td>18</td>
-                    <td>19</td>
-                    <td>14</td>
-                    <td>Pongal</td>
-                </tr>
-                <tr>
-                    <td>week 4</td>
-                    <td>20</td>
-                    <td>21</td>
-                    <td>22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td>26</td>
-                    <td>25</td>
-                    <td>Continuous Assesment Test-I</td>
-                </tr>
-                <tr>
-                    <td>week 5</td>
-                    <td>27</td>
-                    <td>28</td>
-                    <td>29</td>
-                    <td>30</td>
-                    <td>31</td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        27
-                        28
-                        29
-                        30
-                        31
-                    </td>
-                    <td>Continuous Assesment Test-I</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+<head>
+    <meta charset='utf-8'>
+    <title>Q2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <caption><strong>Organisation Chart</strong></caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Manager</th>
+                <th>No. of Employees</th>
+                <th>Department's Budget</th>
+                <th>% of Company's budget</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: aqua;">
+                <th>HR</th>
+                <td>Raghav Gupta</td>
+                <td>5</td>
+                <td>500k</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Engineering</th>
+                <td>Aditya Kumar</td>
+                <td rowspan="2">200</td>
+                <td rowspan="2">800k</td>
+                <td rowspan="2">40</td>
+            </tr>
+            <tr>
+                <td>kartik yadav</td>
+            </tr>
+            <tr style="background-color: lime;">
+                <th rowspan="3">Marketing</th>
+                <td>Pramukh jain</td>
+                <td rowspan="3">300</td>
+                <td rowspan="3">700k</td>
+                <td rowspan="3">35</td>
+            </tr>
+            <tr style="background-color: lime;">
+                <td>Ankush Sharma</td>
+            </tr>
+            <tr style="background-color: lime;">
+                <td>Aayush Acharya</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 </html>
